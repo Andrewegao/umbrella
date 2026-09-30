@@ -16,66 +16,37 @@
 </head>
 <body>
 <h1>Umbrella Privacy Policy</h1>
-<p class="muted">Last updated: 9 August 2026</p>
-
-<p>Umbrella (“the app”, “we”) is a weather app. We designed it to collect as little as
-possible. We do not sell your data, we do not use it for advertising, and we do not run
-any server that stores a profile of you.</p>
-
-<h2>What the app uses</h2>
+<p class="muted">Last updated: 29 September 2026</p>
+<p>Umbrella is a subscription weather app. The app has no advertisements. We do not sell your personal information or use an advertising identifier (IDFA). Optional Apple sign-in details are kept on your device; we do not operate a server-side user account database.</p>
+<h2>Weather, location and routes</h2>
+<p>With your permission, the app uses your location to show forecasts and start a route. Coordinates for places and routes you choose are sent to Apple WeatherKit, our forecast service, and routing services operated by FOSSGIS and Project OSRM. These requests are needed to return weather and routes. Your saved places, routes, recent activity and cached forecasts are stored on your device. They are not sent as analytics event parameters.</p>
+<h2>Apple sign-in and iCloud</h2>
+<p>Sign in with Apple is optional. If you sign in, the app stores the Apple user identifier and any name or email address you share locally. These credentials are not sent to our own server or our analytics providers. Your chosen display name, character appearance and temperature units can be mirrored to your private iCloud key-value storage. We cannot browse your private iCloud data.</p>
+<h2>Subscriptions</h2>
+<p>Apple processes subscription payments. The app checks purchase and subscription status to unlock access. We do not receive your payment-card details, billing address or Apple Account password. Subscription events and selected plans may be recorded by the analytics services below.</p>
+<h2>Usage analytics and diagnostics</h2>
+<p>Production builds use the following services to understand feature use and diagnose problems. These services may process information outside your country under their own privacy policies. Pseudonymous identifiers distinguish installations; this is not the same as collecting your name or Apple sign-in identity.</p>
 <ul>
-  <li><strong>Location</strong> — used to show weather for where you are and to set the
-  starting point of a trip. Your coordinates are sent to the weather and routing services
-  listed below in order to return a forecast or a route. They are not stored by us and are
-  not linked to your identity.</li>
-  <li><strong>Sign in with Apple (optional)</strong> — if you choose to sign in, Apple gives
-  the app an anonymous identifier for you, and the name and email address you choose to
-  share (Apple lets you hide your real email). This is kept on your device. Skipping sign-in
-  does not limit any feature.</li>
-  <li><strong>Your settings and character</strong> — the name you enter, your units, and your
-  character choices are stored on your device, and mirrored to your own private iCloud storage
-  so they survive a new phone. We cannot read your iCloud data.</li>
-  <li><strong>Subscriptions</strong> — purchases are handled entirely by Apple. We never see
-  or receive your card number, billing address, or Apple Account password. We only learn
-  whether a subscription is currently active.</li>
-  <li><strong>Diagnostics &amp; usage</strong> — anonymous crash reports (Sentry) and aggregate,
-  anonymous product-usage analytics (TelemetryDeck), used only to keep the app stable and to
-  understand which features get used. These are not linked to your identity and are not used
-  to track you across other apps or websites.</li>
+<li><strong>Firebase Analytics (Google Analytics for Firebase)</strong> records app interactions, onboarding steps, subscription events, app/device information and a pseudonymous app-instance identifier. It may derive approximate geography from network information. Firebase is disabled when the device region is mainland China. We use the Firebase library without advertising-ID support. The updated app also disables IDFV collection and denies advertising storage, advertising user data and ad personalization. We do not send your Apple sign-in details or precise coordinates to Firebase. <a href="https://firebase.google.com/support/privacy">Firebase privacy information</a>.</li>
+<li><strong>TelemetryDeck</strong> records feature interactions and subscription events with a pseudonymous identifier and technical app/device information. We do not set an account identifier or send your name or email with these events. <a href="https://telemetrydeck.com/privacy/">TelemetryDeck privacy information</a>.</li>
+<li><strong>Sentry</strong> receives crash and app-hang diagnostics, such as stack traces, app version, device/OS information and operational breadcrumbs. Its default personally identifying information collection is disabled. <a href="https://sentry.io/privacy/">Sentry privacy information</a>.</li>
 </ul>
-
-<h2>Services the app contacts</h2>
+<p>Older versions used Firebase for aggregate acquisition and conversion measurement. The app also declares Apple SKAdNetwork identifiers for privacy-preserving installation attribution. These features measure how people discover Umbrella; they do not display ads inside the app. We do not intentionally link analytics to your identity or track you across other companies’ apps or websites.</p>
+<h2>Retention and deletion</h2>
+<p>Local settings and history remain until you delete them or remove the app. iCloud profile data remains until it is deleted from the app and that deletion syncs through iCloud. Analytics and diagnostics are retained according to each provider’s configuration and policies; we do not claim that uninstalling the app erases reports already sent. Aggregated or de-identified statistics may remain. Contact support for a privacy request; please do not send passwords or payment-card information.</p>
+<p>In the updated app, open <strong>You → Account &amp; data</strong>, or <strong>Account &amp; data</strong> on the subscription screen, then choose <strong>Delete account &amp; synced profile</strong>. This removes your Apple sign-in details and your local and iCloud display name, character and unit preferences. Saved places, routes and journey history remain on the device; uninstall the app to remove its local data. If you used Apple sign-in, also stop using it in Settings → your name → Sign in with Apple → Umbrella to revoke Apple’s authorization. <a href="https://support.apple.com/en-us/102571">Apple’s instructions</a>.</p>
+<p>Deleting your account or the app does not cancel a subscription. <a href="https://apps.apple.com/account/subscriptions">Manage or cancel your subscription with Apple</a>.</p>
+<h2>Your controls</h2>
 <ul>
-  <li><strong>Apple WeatherKit</strong> — forecasts and weather alerts for the locations you view.</li>
-  <li><strong>Our weather service</strong> — delivers our own forecast data for the locations you view.</li>
-  <li><strong>OpenStreetMap routing services</strong> (FOSSGIS and Project OSRM) — when you plan a
-  trip, the start and end coordinates of that route are sent to these services to calculate the
-  route itself. Only the route coordinates are sent; no identifier of you accompanies them.</li>
-  <li><strong>Sentry</strong> and <strong>TelemetryDeck</strong> — as described above.</li>
+<li>Turn off location in iOS Settings → Privacy &amp; Security → Location Services.</li>
+<li>Turn off notifications in iOS Settings → Notifications → Umbrella.</li>
+<li>Apple sign-in is optional, and subscription purchases use your App Store account independently.</li>
 </ul>
-
-<h2>What we do not do</h2>
-<ul>
-  <li>We do not sell or rent your personal information.</li>
-  <li>We do not use third-party advertising or ad-tracking SDKs. The app has no ads.</li>
-  <li>We do not track you across other companies’ apps or websites.</li>
-  <li>We do not build or store a server-side profile of you — we operate no user database.</li>
-</ul>
-
-<h2>Your choices</h2>
-<ul>
-  <li>Turn off location at any time in iOS Settings &gt; Privacy &amp; Security &gt; Location Services.</li>
-  <li>Turn off notifications at any time in iOS Settings &gt; Notifications &gt; Umbrella.</li>
-  <li>Stop sharing with Sign in with Apple at any time in iOS Settings &gt; your name &gt;
-  Sign in with Apple &gt; Umbrella.</li>
-  <li>Delete the app to remove the data stored on your device. To also remove the mirrored copy,
-  turn off iCloud for Umbrella in iOS Settings &gt; your name &gt; iCloud.</li>
-</ul>
-
 <h2>Children</h2>
-<p>Umbrella is not directed to children and does not knowingly collect data from children under 13.</p>
-
-<h2>Changes</h2>
-<p>Changes to this policy will be posted on this page with an updated date.</p>
+<p>Umbrella is not directed to children under 13. We do not knowingly collect personal information from children under 13.</p>
+<h2>Support requests</h2>
+<p>If you email support, we receive your email address and the contents and attachments you choose to send. We use them to answer your request and troubleshoot the app. Messages are handled by our email provider, Google (Gmail), and may be retained while resolving your request and for follow-up. Ask us to delete support correspondence when it is no longer needed. Do not include passwords or payment-card details.</p>
+<h2>Contact and changes</h2>
+<p>Email <a href="mailto:andrewgao0001@gmail.com">andrewgao0001@gmail.com</a> or visit <a href="support.html">Umbrella Support</a> for help and privacy requests. Changes to this policy will be posted here with a revised date.</p>
 </body>
 </html>
